@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../security';
-import { useTheme } from '../providers/ThemeProvider';
+import { useTheme } from '../providers/ThemeProvider.jsx';
 import { Header, Sidebar } from '../components';
 
 const drawerWidth = 240;

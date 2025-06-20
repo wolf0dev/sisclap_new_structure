@@ -1,5 +1,5 @@
 // Exportaciones principales del módulo app
-export { default as App } from './App';
+export { default as App } from './App.jsx';
 
 // Componentes
 export * from './components';

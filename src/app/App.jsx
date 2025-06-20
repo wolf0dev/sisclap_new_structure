@@ -5,29 +5,29 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // Layouts
-import AuthLayout from './layouts/AuthLayout';
-import DashboardLayout from './layouts/DashboardLayout';
+import AuthLayout from './layouts/AuthLayout.jsx';
+import DashboardLayout from './layouts/DashboardLayout.jsx';
 
 // Pages
-import LoginPage from './pages/LoginPage';
-import HomePage from './pages/HomePage';
-import DashboardPage from './pages/DashboardPage';
-import BeneficiariosPage from './pages/BeneficiariosPage';
-import BeneficiarioFormPage from './pages/BeneficiarioFormPage';
-import BeneficiarioDetailPage from './pages/BeneficiarioDetailPage';
-import BeneficiariosInactivosPage from './pages/BeneficiariosInactivosPage';
-import DependientesPage from './pages/DependientesPage';
-import DependienteFormPage from './pages/DependienteFormPage';
-import DependienteDetailPage from './pages/DependienteDetailPage';
-import ReporteCargaFamiliarPage from './pages/ReporteCargaFamiliarPage';
-import ReporteHabitantesCallePage from './pages/ReporteHabitantesCallePage';
-import ReporteRangoEdadPage from './pages/ReporteRangoEdadPage';
-import ReporteVentasPage from './pages/ReporteVentasPage';
-import ProfilePage from './pages/ProfilePage';
-import NotFoundPage from './pages/NotFoundPage';
+import LoginPage from './pages/LoginPage.jsx';
+import HomePage from './pages/HomePage.jsx';
+import DashboardPage from './pages/DashboardPage.jsx';
+import BeneficiariosPage from './pages/BeneficiariosPage.jsx';
+import BeneficiarioFormPage from './pages/BeneficiarioFormPage.jsx';
+import BeneficiarioDetailPage from './pages/BeneficiarioDetailPage.jsx';
+import BeneficiariosInactivosPage from './pages/BeneficiariosInactivosPage.jsx';
+import DependientesPage from './pages/DependientesPage.jsx';
+import DependienteFormPage from './pages/DependienteFormPage.jsx';
+import DependienteDetailPage from './pages/DependienteDetailPage.jsx';
+import ReporteCargaFamiliarPage from './pages/ReporteCargaFamiliarPage.jsx';
+import ReporteHabitantesCallePage from './pages/ReporteHabitantesCallePage.jsx';
+import ReporteRangoEdadPage from './pages/ReporteRangoEdadPage.jsx';
+import ReporteVentasPage from './pages/ReporteVentasPage.jsx';
+import ProfilePage from './pages/ProfilePage.jsx';
+import NotFoundPage from './pages/NotFoundPage.jsx';
 
 // Components
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './components/ProtectedRoute.jsx';
 
 function App() {
   return (

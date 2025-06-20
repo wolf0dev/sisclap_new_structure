@@ -17,9 +17,9 @@ import { useAuth } from '../../security';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { Button, Modal } from '../components';
-import RecoverUsernameModal from './modals/RecoverUsernameModal';
-import RecoverPasswordModal from './modals/RecoverPasswordModal';
-import RegisterModal from './modals/RegisterModal';
+import RecoverUsernameModal from './modals/RecoverUsernameModal.jsx';
+import RecoverPasswordModal from './modals/RecoverPasswordModal.jsx';
+import RegisterModal from './modals/RegisterModal.jsx';
 
 const LoginPage = () => {
   const { login, isAuthenticated } = useAuth();
