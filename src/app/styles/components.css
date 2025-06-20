@@ -1,0 +1,133 @@
+/* Estilos específicos para componentes personalizados */
+
+/* Button Component */
+.custom-button {
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Table Component */
+.custom-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-table .MuiDataGrid-root {
+  border: none;
+}
+
+.custom-table .MuiDataGrid-cell:focus {
+  outline: none;
+}
+
+.custom-table .MuiDataGrid-columnHeader:focus {
+  outline: none;
+}
+
+/* Form Component */
+.custom-form {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Component */
+.custom-modal .MuiDialog-paper {
+  border-radius: 12px;
+}
+
+/* Chart Component */
+.custom-chart {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Component */
+.custom-menu .MuiListItemButton-root:hover {
+  background-color: rgba(255, 64, 64, 0.08);
+}
+
+.custom-menu .MuiListItemButton-root.Mui-selected {
+  background-color: rgba(255, 64, 64, 0.12);
+}
+
+.custom-menu .MuiListItemButton-root.Mui-selected:hover {
+  background-color: rgba(255, 64, 64, 0.16);
+}
+
+/* Header Component */
+.custom-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Component */
+.custom-sidebar {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* Footer Component */
+.custom-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* Page Header Component */
+.custom-page-header {
+  margin-bottom: 2rem;
+}
+
+/* Empty State Component */
+.custom-empty-state {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* Loading Overlay Component */
+.custom-loading-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+/* Confirm Dialog Component */
+.custom-confirm-dialog .MuiDialog-paper {
+  border-radius: 12px;
+}
+
+/* Input Field Component */
+.custom-input-field .MuiTextField-root {
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-table {
+    font-size: 0.875rem;
+  }
+  
+  .custom-form {
+    margin: 1rem;
+  }
+  
+  .custom-page-header {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .custom-form {
+  background: #1e1e1e;
+}
+
+[data-theme="dark"] .custom-chart {
+  background: #1e1e1e;
+}
+
+[data-theme="dark"] .custom-footer {
+  background-color: #1e1e1e;
+  border-top-color: rgba(255, 255, 255, 0.12);
+}
